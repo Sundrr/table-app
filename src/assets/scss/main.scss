@@ -1,0 +1,24 @@
+@import '@/assets/scss/fonts.scss';
+
+html, body {
+  background-color: transparent;
+}
+
+html, body, h1, h2, section, nav, input, select, p, a, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+div {
+  box-sizing: border-box;
+}

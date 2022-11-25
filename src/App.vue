@@ -1,26 +1,24 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <table-page />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TablePage from '@/components/pages/TablePage.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TablePage,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  div {
+    display: initial;
+  }
+
+ p {
+   margin: 0;
+ }
 </style>
